@@ -1,103 +1,60 @@
-
-
 *{
-
 margin: 0px;
-
 padding: 0px;
-
 box-sizing: border-box;
-
 }
 
-html {
-
+html{
 scroll-behavior:smooth;
-
 }
 
-
-
-body {
-
+body{
 background-color:beige;
-
 max-width: 1400px;
-
 margin: 0 auto;
-
 }
 
-a {
-
+a{
 text-decoration: none;
-
 }
 
 /* navbar start*/
 
 nav {
-
 display: flex;
-
 flex-wrap: wrap;
-
 justify-content: space-between;
-
 height:60px;
-
 align-items:center;
-
 padding-left:44px;
-
 padding-right: 60px;
-
 }
 
-nav .left a {
-
+nav .left a{
 color:black;
-
 font-size:25px;
-
 }
 
-nav.right a {
-
+nav .right a{
 color:black;
-
 margin: 5px;
-
 }
 
-nav right a:last-child {
-
+nav .right a:last-child{
 background-color:black;
-
 color: white;
-
-border-radius: 6px;
-
-padding: 3px;
-
+border-radius:6px;
+padding:3px;
 }
-
 /* Navbar End */
 
 /* Section 1 About me, Start */
 
-#aboutme {
-
-display: flex;
-
-justify-content: space-between;
-
+#aboutme{
+display:flex;
+justify-content:space-between;
 padding:0 43px;
-
-margin: 12px 10px;
-
-align-items: center;
-
-gap: 38px;
-
+margin:12px 10px;
+align-items:center;
+gap:38px;
 }
